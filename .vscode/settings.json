@@ -1,0 +1,6 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.analysis.extraPaths": [
+        "./week0-prerequisites/tasks/task-p9-gate/src"
+    ]
+}

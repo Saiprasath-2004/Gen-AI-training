@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: task-p9-gate
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: passlib>=1.7.4
+Requires-Dist: pathlib>=1.0.1
+Requires-Dist: pydantic>=2.13.4
+Requires-Dist: pytest>=9.1.1
+Requires-Dist: python-dotenv>=1.2.2

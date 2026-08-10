@@ -1,0 +1,22 @@
+[
+  {
+    "role": "USER",
+    "content": "Call me at 9876543210",
+    "tokens": 120
+  },
+  {
+    "role": "ASSISTANT",
+    "content": "Hello Sai",
+    "tokens": 75
+  },
+  {
+    "role": "USER",
+    "content": "My number is 9123456789",
+    "tokens": 150
+  },
+  {
+    "role": "USER",
+    "content": "Bad Record",
+    "tokens": "abc"
+  }
+]
