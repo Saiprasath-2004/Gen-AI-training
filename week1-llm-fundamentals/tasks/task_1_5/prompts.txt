@@ -1,0 +1,20 @@
+Explain what FastAPI is in one sentence.
+Explain what PostgreSQL is in one sentence.
+Explain what an API endpoint is.
+Explain what JSON is.
+Explain what HTTP GET means.
+Explain what HTTP POST means.
+Explain what a Python virtual environment is.
+Explain what Pydantic does.
+Explain what an HTTP status code is.
+Explain what a database index does.
+Explain what caching means in backend systems.
+Explain what asynchronous programming means.
+Explain what a REST API is.
+Explain what a JWT is.
+Explain what a Python decorator is.
+Explain what a database transaction is.
+Explain what Docker is.
+Explain what a unit test is.
+Explain what a message queue is.
+Explain what observability means in software.
