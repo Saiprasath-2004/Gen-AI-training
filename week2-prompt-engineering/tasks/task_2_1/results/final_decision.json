@@ -1,0 +1,107 @@
+{
+  "overall_winner": {
+    "rank": 1,
+    "model": "google/gemini-3.5-flash-lite",
+    "provider": "openrouter",
+    "deployment": "hosted",
+    "final_score": 0.85,
+    "quality": 1.0,
+    "failure_rate": 0.0,
+    "avg_latency_ms": 1711.98,
+    "avg_cost_usd": 0.00034346
+  },
+  "best_hosted": {
+    "rank": 1,
+    "model": "google/gemini-3.5-flash-lite",
+    "provider": "openrouter",
+    "deployment": "hosted",
+    "final_score": 0.85,
+    "quality": 1.0,
+    "failure_rate": 0.0,
+    "avg_latency_ms": 1711.98,
+    "avg_cost_usd": 0.00034346
+  },
+  "best_local": null,
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "google/gemini-3.5-flash-lite",
+      "provider": "openrouter",
+      "deployment": "hosted",
+      "final_score": 0.85,
+      "quality": 1.0,
+      "failure_rate": 0.0,
+      "avg_latency_ms": 1711.98,
+      "avg_cost_usd": 0.00034346
+    },
+    {
+      "rank": 2,
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "openrouter",
+      "deployment": "hosted",
+      "final_score": 0.7521,
+      "quality": 1.0,
+      "failure_rate": 0.0,
+      "avg_latency_ms": 5149.8,
+      "avg_cost_usd": 7.479e-05
+    },
+    {
+      "rank": 3,
+      "model": "openai/gpt-oss-20b",
+      "provider": "openrouter",
+      "deployment": "hosted",
+      "final_score": 0.75,
+      "quality": 1.0,
+      "failure_rate": 0.0,
+      "avg_latency_ms": 5375.38,
+      "avg_cost_usd": 4.857e-05
+    }
+  ],
+  "rejected_models": {
+    "nvidia/nemotron-3-nano-30b-a3b": {
+      "provider": "openrouter",
+      "deployment": "hosted",
+      "total_prompts": 5,
+      "successful_calls": 5,
+      "failed_calls": 0,
+      "failure_rate": 0.0,
+      "avg_latency_ms": 1658.15,
+      "total_cost_usd": 0.0003696,
+      "avg_cost_usd": 7.392e-05,
+      "total_tokens": 2358,
+      "usable_outputs": 4,
+      "quality_score": 0.8,
+      "rejection_reason": "Failed minimum quality or maximum failure-rate requirement."
+    },
+    "gemma3:4b": {
+      "provider": "ollama",
+      "deployment": "local",
+      "total_prompts": 5,
+      "successful_calls": 5,
+      "failed_calls": 0,
+      "failure_rate": 0.0,
+      "avg_latency_ms": 18131.06,
+      "total_cost_usd": 0,
+      "avg_cost_usd": 0.0,
+      "total_tokens": 1403,
+      "usable_outputs": 2,
+      "quality_score": 0.4,
+      "rejection_reason": "Failed minimum quality or maximum failure-rate requirement."
+    },
+    "qwen3:4b": {
+      "provider": "ollama",
+      "deployment": "local",
+      "total_prompts": 5,
+      "successful_calls": 3,
+      "failed_calls": 2,
+      "failure_rate": 0.4,
+      "avg_latency_ms": 84309.53,
+      "total_cost_usd": 0,
+      "avg_cost_usd": 0.0,
+      "total_tokens": 2445,
+      "usable_outputs": 3,
+      "quality_score": 0.6,
+      "rejection_reason": "Failed minimum quality or maximum failure-rate requirement."
+    }
+  }
+}

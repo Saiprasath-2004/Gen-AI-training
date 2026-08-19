@@ -1,0 +1,4 @@
+{
+  "primary_model": "google/gemini-3.7-flash",
+  "fallback_model": "meta-llama/llama-3.3-70b-instruct"
+}

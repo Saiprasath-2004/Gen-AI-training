@@ -1,0 +1,70 @@
+
+[P1] You are processing an employee expense request for an expense
+management system.
+
+Extract the following information from the text below: - employee -
+source - destination - start_date - end_date - expenses
+
+Return the extracted information clearly. If a field is not present, use
+null.
+
+Text: “Hi Finance, I travelled from Chennai to Bangalore from August 10
+to August 12 for a client meeting. I spent ₹4,850 on accommodation and
+₹1,240 on meals. Please reimburse these expenses.”
+
+[P2] You are classifying expenses for an enterprise expense management
+system.
+
+Classify the following expense into exactly one of these categories: -
+Travel - Accommodation - Food - Petrol - Miscellaneous
+
+Also provide a short explanation for your classification.
+
+Expense: “Employee travelled to Bangalore for a client meeting and paid
+₹4,850 for hotel accommodation.”
+
+[P3] You are assisting a manager in reviewing an employee expense claim.
+
+Use the following information: - Department budget: ₹100,000 - Remaining
+budget: ₹12,000 - Travel expense: ₹8,000 - Accommodation expense: ₹7,000
+
+The manager can approve the claim fully or partially.
+
+Determine: 1. The total requested amount. 2. Whether the claim can be
+fully approved using the remaining budget. 3. Your recommended action.
+4. A short explanation of your reasoning.
+
+Do not invent any additional budget or policy information.
+
+[P4] Summarize the following project status report.
+
+Return: 1. A concise summary. 2. Three key points. 3. The main risks or
+blockers. 4. The recommended next action.
+
+Project status report:
+
+“The expense management API has completed authentication, claim creation
+and manager approval. The team has integrated PostgreSQL and Alembic
+migrations. However, finance approval is still manual. The notification
+service is incomplete and there are intermittent timeout issues when
+generating reports. The team expects to complete the notification
+service next week.”
+
+[P5] You are analyzing a production incident report.
+
+Extract the information into the following JSON structure:
+
+{ “severity”: “…”, “service”: “…”, “duration_minutes”: 0,
+“customer_impact”: “…”, “root_cause”: “…”, “recommended_action”: “…” }
+
+Return only the JSON object. Do not include Markdown code fences or
+additional explanation.
+
+Incident report:
+
+“At 10:32 AM the payment service started returning HTTP 500 errors.
+Approximately 18% of payment requests failed for 23 minutes. The issue
+was caused by a database connection pool exhaustion after a deployment
+increased concurrent requests. Rolling back the deployment restored
+normal operation. The team should review connection pool limits before
+redeploying.”

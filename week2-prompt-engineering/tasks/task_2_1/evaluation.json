@@ -1,0 +1,309 @@
+{
+  "evaluations": [
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "prompt_id": "P1",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "prompt_id": "P2",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "prompt_id": "P4",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Recommended automating finance approval, which was not explicitly requested by the source."
+    },
+    {
+      "model": "google/gemini-3.5-flash-lite",
+      "prompt_id": "P5",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt_id": "P1",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": "More verbose than necessary."
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt_id": "P2",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Introduced an unsupported allocation example for partial reimbursement."
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt_id": "P4",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Added unsupported technical recommendations."
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt_id": "P5",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "prompt_id": "P1",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "prompt_id": "P2",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "prompt_id": "P4",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "prompt_id": "P5",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "prompt_id": "P1",
+      "usable": false,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 0,
+      "notes": "Output was truncated with finish_reason=length."
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "prompt_id": "P2",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Introduced unsupported reimbursement/policy assumptions."
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "prompt_id": "P4",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Added unsupported compliance risk."
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "prompt_id": "P5",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+
+    {
+      "model": "gemma3:4b",
+      "prompt_id": "P1",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "gemma3:4b",
+      "prompt_id": "P2",
+      "usable": false,
+      "correctness": 0,
+      "instruction_following": 0,
+      "groundedness": 1,
+      "format": 1,
+      "notes": "Returned 'Travel - Accommodation' instead of exactly one category."
+    },
+    {
+      "model": "gemma3:4b",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Suggested using employee funds or another funding source without support from the prompt."
+    },
+    {
+      "model": "gemma3:4b",
+      "prompt_id": "P4",
+      "usable": false,
+      "correctness": 0,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Incorrectly attributed report-generation timeouts to the notification service."
+    },
+    {
+      "model": "gemma3:4b",
+      "prompt_id": "P5",
+      "usable": false,
+      "correctness": 1,
+      "instruction_following": 0,
+      "groundedness": 1,
+      "format": 0,
+      "notes": "Returned JSON inside Markdown code fences despite explicit instruction not to."
+    },
+
+    {
+      "model": "qwen3:4b",
+      "prompt_id": "P1",
+      "usable": false,
+      "correctness": 0,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 0,
+      "notes": "Request timed out."
+    },
+    {
+      "model": "qwen3:4b",
+      "prompt_id": "P2",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "qwen3:4b",
+      "prompt_id": "P3",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 1,
+      "format": 1,
+      "notes": ""
+    },
+    {
+      "model": "qwen3:4b",
+      "prompt_id": "P4",
+      "usable": true,
+      "correctness": 1,
+      "instruction_following": 1,
+      "groundedness": 0,
+      "format": 1,
+      "notes": "Added unsupported compliance and failure claims."
+    },
+    {
+      "model": "qwen3:4b",
+      "prompt_id": "P5",
+      "usable": false,
+      "correctness": 0,
+      "instruction_following": 0,
+      "groundedness": 0,
+      "format": 0,
+      "notes": "Request timed out."
+    }
+  ]
+}

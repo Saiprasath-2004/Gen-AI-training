@@ -1,0 +1,9 @@
+{
+  "minimum_quality": 1.0,
+  "maximum_failure_rate": 0.0,
+  "weights": {
+    "quality": 0.6,
+    "latency": 0.25,
+    "cost": 0.15
+  }
+}
