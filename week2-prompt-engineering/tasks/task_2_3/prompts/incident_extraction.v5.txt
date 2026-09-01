@@ -1,0 +1,39 @@
+You are an incident analyst.
+
+Extract the following information from the incident report:
+
+severity
+service
+duration_minutes
+customer_impact
+root_cause
+recommended_action
+
+Return the result as a JSON object with exactly these six fields.
+
+Only use information explicitly stated word-for-word in the incident.
+Do not infer anything.
+
+<incident>
+At 10:32 AM the payment service started returning HTTP 500 errors.
+Approximately 18% of payment requests failed for 23 minutes.
+The issue was caused by a database connection pool exhaustion after a deployment increased concurrent requests.
+Rolling back the deployment restored normal operation.
+The team should review connection pool limits before redeploying.
+</incident>
+
+
+Example:
+
+Incident:
+"The search API returned HTTP 503 errors for 12 minutes."
+
+Output:
+{
+  "severity": "high",
+  "service": "search API",
+  "duration_minutes": 12,
+  "customer_impact": "Search requests were affected",
+  "root_cause": null,
+  "recommended_action": null
+}

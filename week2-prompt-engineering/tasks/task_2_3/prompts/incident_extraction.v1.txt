@@ -1,0 +1,18 @@
+You are an incident analyst.
+
+Extract the following information from the incident report:
+
+severity
+service
+duration_minutes
+customer_impact
+root_cause
+recommended_action
+
+Incident report:
+
+At 10:32 AM the payment service started returning HTTP 500 errors.
+Approximately 18% of payment requests failed for 23 minutes.
+The issue was caused by a database connection pool exhaustion after a deployment increased concurrent requests.
+Rolling back the deployment restored normal operation.
+The team should review connection pool limits before redeploying.   

@@ -1,0 +1,8 @@
+I want to play cricket tomorrow morning at 6 AM in Chennai.
+
+Check the weather conditions expected around that time and tell
+me whether it is suitable for playing cricket.
+
+Consider rain, wind, and temperature.
+Give me a clear recommendation and explain the main weather
+conditions affecting the activity.

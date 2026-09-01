@@ -1,0 +1,3 @@
+What is the difference between REST APIs and GraphQL?
+Explain the advantages and disadvantages of each and give me
+an example of when I should choose one over the other.

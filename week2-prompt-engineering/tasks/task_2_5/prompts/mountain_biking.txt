@@ -1,0 +1,9 @@
+I am planning to go mountain biking in Chennai next Sunday.
+
+Check the weather conditions expected around that time and
+determine whether it is reasonably suitable for mountain biking.
+
+Pay particular attention to strong wind, rain, and extreme
+temperature.
+
+Give me a clear recommendation and explain the main hazards.    

@@ -1,0 +1,52 @@
+[
+  {
+    "response": "Based on the incident report provided, here is the extracted information:\n\n* **severity:** High (inferred from 18% failure rate on payment service and HTTP 500 errors)\n* **service:** Payment service\n* **duration_minutes:** 23\n* **customer_impact:** Approximately 18% of payment requests failed\n* **root_cause:** Database connection pool exhaustion after a deployment increased concurrent requests\n* **recommended_action:** Review connection pool limits before redeploying",
+    "latency_ms": 1598.52,
+    "prompt_tokens": 118,
+    "completion_tokens": 105,
+    "total_tokens": 223,
+    "cost_usd": 0.0002979,
+    "version": "v1",
+    "model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "response": "```json\n{\n  \"severity\": \"High\",\n  \"service\": \"payment service\",\n  \"duration_minutes\": 23,\n  \"customer_impact\": \"Approximately 18% of payment requests failed with HTTP 500 errors\",\n  \"root_cause\": \"Database connection pool exhaustion after a deployment increased concurrent requests\",\n  \"recommended_action\": \"Review connection pool limits before redeploying\"\n}\n```",
+    "latency_ms": 1247.83,
+    "prompt_tokens": 132,
+    "completion_tokens": 97,
+    "total_tokens": 229,
+    "cost_usd": 0.0002821,
+    "version": "v2",
+    "model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "response": "```json\n{\n  \"severity\": \"High\",\n  \"service\": \"payment service\",\n  \"duration_minutes\": 23,\n  \"customer_impact\": \"Approximately 18% of payment requests failed with HTTP 500 errors\",\n  \"root_cause\": \"Database connection pool exhaustion after a deployment increased concurrent requests\",\n  \"recommended_action\": \"Review connection pool limits before redeploying\"\n}\n```",
+    "latency_ms": 1022.52,
+    "prompt_tokens": 136,
+    "completion_tokens": 97,
+    "total_tokens": 233,
+    "cost_usd": 0.0002833,
+    "version": "v3",
+    "model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "response": "```json\n{\n  \"severity\": \"high\",\n  \"service\": \"payment service\",\n  \"duration_minutes\": 23,\n  \"customer_impact\": \"Approximately 18% of payment requests failed\",\n  \"root_cause\": \"Database connection pool exhaustion after a deployment increased concurrent requests\",\n  \"recommended_action\": \"Review connection pool limits before redeploying\"\n}\n```",
+    "latency_ms": 1010.04,
+    "prompt_tokens": 225,
+    "completion_tokens": 90,
+    "total_tokens": 315,
+    "cost_usd": 0.0002925,
+    "version": "v4",
+    "model": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "response": "```json\n{\n  \"severity\": null,\n  \"service\": \"payment service\",\n  \"duration_minutes\": 23,\n  \"customer_impact\": \"Approximately 18% of payment requests failed\",\n  \"root_cause\": \"database connection pool exhaustion after a deployment increased concurrent requests\",\n  \"recommended_action\": \"The team should review connection pool limits before redeploying\"\n}\n```",
+    "latency_ms": 1054.47,
+    "prompt_tokens": 246,
+    "completion_tokens": 92,
+    "total_tokens": 338,
+    "cost_usd": 0.0003038,
+    "version": "v5",
+    "model": "google/gemini-3.5-flash-lite"
+  }
+]
